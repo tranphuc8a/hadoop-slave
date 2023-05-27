@@ -28,4 +28,6 @@ Cấu hình biến môi trường:
 	export YARN_HOME=${HADOOP_HOME}
 	export JAVA_HOME=/path/to/java (ex: /usr/lib/jvm/java-8-openjdk-amd64)
 
-
+	export HDFS_NAMENODE_USER=<user>
+	export HDFS_DATANODE_USER=<user>
+	export HDFS_SECONDARYNAMENODE_USER=<user>
